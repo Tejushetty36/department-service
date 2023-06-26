@@ -1,0 +1,8 @@
+server:
+  port: 8089
+spring:
+  application:
+    name: DEPARTMENT-SERVICE
+  config:
+    import: configserver:http://localhost:8092/
+
